@@ -1,0 +1,68 @@
+.pdf-container{
+    width:100%;
+    height:900px;
+    overflow-y:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.file-input-label {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.file-input-label input[type='file'] {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.upload-icon {
+    margin-right: 7px;
+   
+}
+
+.click-to-upload-button-top-bar{
+    background-color:  rgb(245, 245, 245); 
+}
+
+.click-to-upload-button{
+    margin: 5px; 
+    padding: 5px 12px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    border:1px solid lightgray;
+    border-radius: 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.click-to-upload-button:hover{
+background-color:#cccccc;
+}
+
+.no-pdf-message {
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+
+
+
