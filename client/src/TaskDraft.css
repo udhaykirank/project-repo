@@ -13,7 +13,7 @@
     left: 0; 
     width: 100%; 
     height:6vh;
-  
+  border-bottom: 2px solid rgb(207, 207, 207);
     background-color: white;
     z-index: 1; 
 }
